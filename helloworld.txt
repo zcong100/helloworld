@@ -1,1 +1,3 @@
  本地clone修改  1
+ 
+ 修改git config 中的名字
