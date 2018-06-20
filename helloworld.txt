@@ -1,6 +1,0 @@
- 本地clone修改  1
- 
- 修改git config 中的名字
- 
- 设置https默认长期存储密码
- 再次存储

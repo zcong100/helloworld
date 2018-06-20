@@ -1,0 +1,74 @@
+$baseColor:#455d83;
+$fontColor:#fff;
+
+a{
+  text-decoration: none;
+  color: $fontColor;
+}
+// base end
+body,html{
+  font-size: 10px;
+  padding: 0rem;
+  margin: 0rem;
+}
+body{
+  width: 416px;
+  margin: auto;
+  font-family: 'Microsoft YaHei';
+}
+header,nav{
+  display: flex;
+  justify-content:space-around;
+  background: $baseColor;
+  font-size: 2.4rem;
+  line-height: 4.5rem;
+}
+nav{
+  justify-content: left;
+  color: $fontColor;
+  padding-left: 1.5rem;
+}
+.main{
+  border-bottom: 2.5rem solid $baseColor;
+  min-height: 85vh;
+
+  .con{
+    font-size: 2rem;
+    line-height: 3.4rem;
+    color: $baseColor;
+    margin: 3.2rem 1.5rem;
+  }
+  .foodCon{
+    margin-top: 1.5rem;
+  }
+
+  .nightCon{
+    .box{
+      display: flex;
+      align-items: center;
+
+      img{
+        //width: 18rem;
+        height: 9.7rem;
+        margin-right: 1.5rem;
+      }
+      .tit{
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        margin: 1rem auto;
+      }
+      .text{
+        line-height: 2.5rem;
+        font-size: 1.8rem;
+      }
+    }
+    .box2{
+      margin-top: -2rem;
+      img{
+        margin-left: 1.5rem;
+        margin-right: 0rem;
+      }
+    }
+  }
+}
